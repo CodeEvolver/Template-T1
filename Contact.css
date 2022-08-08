@@ -1,0 +1,162 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gisha", sans-serif;
+    scroll-behavior: smooth;
+}
+#nav-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: #000000;
+    background-color: aqua;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    font-size: clamp(12px, 2vw, 16px);
+}
+#nav-bar img {
+    margin: auto auto auto 20px;
+    width: 150px;
+    height: 100%;
+}
+#nav-bar > a {
+    text-decoration: none;
+    margin: auto 2vw;
+    color: darkslategrey;
+    font-weight: 500;
+}
+#nav-bar > a:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-radius: 20px;
+    padding: 5px;
+}
+#nav-bar > div {
+    margin: auto 20px auto auto;
+}
+#nav-bar > div > a > button {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    color: darkslategrey;
+    font-size: clamp(12px, 2vw, 16px);
+    height: auto;
+    border: 1px solid darkslategrey;
+    padding: 5px 10px;
+    font-family: "Gisha", sans-serif;
+}
+#nav-bar > div > a > button:hover {
+    background-color: darkslategrey;
+    color: #FFFFFF;
+}
+#main {
+    height: auto;
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#main > div {
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    align-items: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contact-form > div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#contact-form > div > label {
+    color: darkslategrey;
+}
+#contact-form > div >  input {
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+#contact-form > #comment-box > input {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    margin-top: 3px;
+}
+#contact-form > #submission > button {
+    color: aqua;
+    background-color: darkslategrey;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#contact-form > #submission > button:hover {
+    background-color: darkslategrey;
+    opacity: 0.9;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    color: darkslategrey;
+    font-family: inherit;
+    font-size: clamp(16px, 2vw, 16px);
+}
+#more-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#more-info > div {
+    width: auto;
+    height: auto;
+    margin: 20px 20px;
+}
+.info-links {
+    color: inherit;
+    text-decoration: none;
+}
+#more-info > #contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+}
+#more-info > #contacts > a {
+    font-size: 40px;
+    margin: 10px;
+    color: darkslategrey;
+}
+#copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#copyright > p {
+    margin: 20px auto;
+    align-self: center;
+}
+@media (max-width: 400px) {
+    #partner {
+        display: none;
+    }
+}

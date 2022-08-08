@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gisha", sans-serif;
+    scroll-behavior: smooth;
+}
+#landing-section {
+    width:100%;
+    height: clamp(100%, 100vh, 100vh);
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#landing-section > nav {
+    width: inherit;
+    height: 50px;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    font-size: clamp(12px, 2vw, 16px);
+}
+#landing-section > nav > img {
+    margin: auto auto auto 20px;
+    width: 150px;
+    height: 100%;
+}
+#landing-section > nav > a {
+    text-decoration: none;
+    margin: auto 2vw;
+    color: darkslategrey;
+    font-weight: 500;
+}
+#landing-section > nav > a:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-radius: 20px;
+    padding: 5px;
+}
+#landing-section > nav > div {
+    margin: auto 20px auto auto;
+}
+#landing-section > nav > div > a > button {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    color: darkslategrey;
+    font-size: clamp(12px, 2vw, 16px);
+    height: auto;
+    border: 1px solid darkslategrey;
+    padding: 5px 10px;
+    font-family: "Gisha", sans-serif;
+}
+#landing-section > nav > div > a > button:hover {
+    background-color: darkslategrey;
+    color: #FFFFFF;
+}
+#hero-caption {
+    width: 100%;
+    font-family: "Gisha", sans-serif;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: auto;
+    justify-self: center;
+}
+#hero-caption > h1 {
+    font-size: clamp(30px, 5vw, 40px);
+    margin-bottom: -12px;
+}
+#hero-caption > h3 {
+    font-size: clamp(16px, 2vw, 16px);
+    margin-bottom: -2px;
+
+}
+#hero-caption > p {
+    font-size: clamp(16px, 2vw, 16px);
+    text-align: center;
+}
+#hero-caption > div {
+    display: flex;
+    flex-direction: row;
+}
+#hero-caption > div > :first-child {
+    margin-right: 4%;
+}
+#hero-caption > div > :first-child > button {
+    border-style: none;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: clamp(14px, 2vh, 15px);
+    height: 30px;
+    width: clamp(120px, 100%, 120px);
+    padding: 5px 10px;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}
+#hero-caption > div > :first-child > button:hover {
+    background-color: transparent;
+    border: 1px solid darkslategrey;
+    color: darkslategrey;
+}
+#hero-caption > div > :last-child > button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkslategrey;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: clamp(14px, 2vh, 15px);
+    height: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: darkslategrey;
+    cursor: pointer;
+    margin-left: 40px;
+}
+#hero-caption > div > :last-child > button:hover {
+    background-color: darkslategrey;
+    border-style: none;
+    color: #FFFFFF;
+}
+#about-service {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    color: darkslategrey;
+    font-family: inherit;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about-service > div {
+    width: 270px;
+    height: auto;
+    text-align: center;
+    margin: 25px 50px 50px;
+}
+#about-service > div > h3 {
+    font-size: clamp(18px, 2vw, 20px);
+}
+#about-service > div > p {
+    font-size: clamp(16px, 1.5vw, 18px);
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: darkslategrey;
+    color: aqua;
+    font-family: inherit;
+    font-size: clamp(16px, 2vw, 16px);
+}
+#more-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#more-info > div {
+    width: auto;
+    height: auto;
+    margin: 20px 20px;
+}
+.info-links {
+    color: inherit;
+    text-decoration: none;
+}
+#more-info > #contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+}
+#more-info > #contacts > a {
+    font-size: 40px;
+    margin: 10px;
+    color: aqua;
+}
+#copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#copyright > p {
+    margin: 20px auto;
+    align-self: center;
+}
+@media (max-width: 400px) {
+    #partner {
+        display: none;
+    }
+}

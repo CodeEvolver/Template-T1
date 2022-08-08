@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template T1 | Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <img src="https://www.logo.wine/a/logo/Software_AG/Software_AG-Logo.wine.svg" alt="logo">
+        <a href="http://localhost:63342/Template%20T1/LandingPage.html">Home</a>
+        <a href="http://localhost:63342/Template%20T1/Contact.html">Contact</a>
+        <a href="#">Company</a>
+        <div>
+            <a href="#">
+                <button>Login</button>
+            </a>
+        </div>
+    </nav>
+    <main id="main">
+        <div>
+            <h1>Contact</h1>
+            <p>Your credentials and info are secured with us</p>
+        </div>
+        <form id="contact-form" rel="#">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Input your name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Input a valid email address" required>
+            </div>
+            <div>
+                <label for="phoneNo">Phone No</label>
+                <input id="phoneNo" type="text" placeholder="Input a Phone number" maxlength="11">
+            </div>
+            <div>
+                <label for="dob">Year Of Birth/Establishment</label>
+                <input id="dob" type="number" placeholder="Input a year" required max="2022" min="1900">
+            </div>
+            <div id="description">
+                <label for="description">What best describes you?</label>
+                <div>
+                    <input type="radio" id="male" name="description" value="Male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="description" value="Female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id="company" name="description" value="Company">
+                    <label for="company">Company</label>
+                </div>
+                <div>
+                    <input type="radio" id="business" name="description" value="Business">
+                    <label for="business">Business</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="description" value="Other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div id="comment-box">
+                <label for="comment">We welcome your ideas and suggestions</label>
+                <input type="text" id="comment" placeholder="Comments" maxlength="500">
+            </div>
+            <div id="submission">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="more-info">
+            <div>
+                <h3>Location(s)</h3>
+                <p>Lorem Ipsum is simply dummy</p>
+                <p>Lorem Ipsum is simply dummy</p>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div>
+                <h3>Contacts</h3>
+                <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+                <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+                <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+                <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+            </div>
+            <div>
+                <h3>Partners</h3>
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+                <p>Lorem Ipsum</p>
+            </div>
+            <div id="contacts">
+                <a href="#facebooklink"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#twitterlink"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#linkedinlink"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#instagramlink"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy 2022 || Lorem Ipsum.</p>
+        </div>
+    </footer>
+</body>
+</html>
