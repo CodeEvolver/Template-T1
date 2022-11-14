@@ -1,1 +1,191 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>Template T1 | Company</title>
+
+        <link rel="stylesheet" href="Company.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <nav id="nav-bar">
+
+            <img src="https://www.logo.wine/a/logo/Software_AG/Software_AG-Logo.wine.svg" alt="logo">
+
+            <a href="http://localhost:63342/Template%20T1/LandingPage.html">Home</a>
+
+            <a href="http://localhost:63342/Template%20T1/Contact.html">Contact</a>
+
+            <a href="#">Company</a>
+
+            <div>
+
+                <a href="#">
+
+                    <button>Login</button>
+
+                </a>
+
+            </div>
+
+        </nav>
+
+        <main>
+
+            <div class= "company-banner">
+
+                <h1>Lorem Ipsum <br> Dolor</h1>
+
+            </div>
+
+            <div class="mission-vision">
+
+                <h1>Ipsum Lorem</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, obcaecati numquam consequatur dicta veritatis doloremque maxime eum ea necessitatibus asperiores voluptatem velit qui, ullam similique quas enim commodi reprehenderit blanditiis?</p>
+
+            </div>
+
+            <div class="owner-view">
+
+                <div class="cto">
+
+                    <div>
+
+                        <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg">
+
+                        <h2>Xander Slit</h2>
+
+                        <p>Chief Technology Officer</p>
+
+                    </div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, expedita! Excepturi cumque consequuntur quis ipsam? Modi ex, at, enim consequuntur id dolor nemo molestiae quos veritatis, nostrum unde quam recusandae.</p>
+
+                </div>
+
+                <div class="co-founder">
+
+                    <div>
+
+                        <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg">
+
+                        <h2>Merc Mech</h2>
+
+                        <p>Co-founder</p>
+
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis qui, laborum repellat commodi velit eligendi inventore officia iste quidem nesciunt distinctio amet fugiat fugit eaque dicta ea repudiandae vero magni!</p>
+
+                </div>
+
+                <div class="founder">
+
+                    <div>
+
+                        <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg">
+
+                        <h2>Code Evolver</h2>
+
+                        <p>Founder/CEO</p>
+
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita saepe amet officiis ut vitae cumque? Culpa quasi, aliquam, incidunt iste aliquid voluptate laudantium quam, nesciunt magnam non similique quidem laboriosam!</p>
+
+                </div>
+
+            </div>
+
+            <div class="trustees">
+
+                <h2>Trusted by</h2>
+
+                <div class="business">
+
+                    <img src="#" alt="Xiver"><img src="#" alt="Tofine"><img src="#" alt="Izzyer"><img src="#" alt="Goodroid"><img src="#" alt="Merc Airgine">
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div id="more-info">
+
+                <div>
+
+                    <h3>Location(s)</h3>
+
+                    <p>Lorem Ipsum is simply dummy</p>
+
+                    <p>Lorem Ipsum is simply dummy</p>
+
+                    <p>Lorem Ipsum is simply dummy</p>
+
+                </div>
+
+                <div>
+
+                    <h3>Contacts</h3>
+
+                    <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+
+                    <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+
+                    <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+
+                    <p><a href="#" class="info-links">Lorem Ipsum</a></p>
+
+                </div>
+
+                <div>
+
+                    <h3>Partners</h3>
+
+                    <p>Lorem Ipsum</p>
+
+                    <p>Lorem Ipsum</p>
+
+                    <p>Lorem Ipsum</p>
+
+                    <p>Lorem Ipsum</p>
+
+                </div>
+
+                <div id="contacts">
+
+                    <a href="#facebooklink"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+                    <a href="#twitterlink"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+                    <a href="#linkedinlink"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                    <a href="#instagramlink"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+                </div>
+
+            </div>
+
+            <div id="copyright">
+
+                <p>&copy 2022 || Lorem Ipsum.</p>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
